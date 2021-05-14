@@ -388,8 +388,60 @@ padding: 5px 10px;
     height: 200px;
 }
 
+.fasoza {
+    width: 96%;
+    margin: 50px auto;
+    border-top: 0.5px solid lightgray;
+}
+.fasoza-section {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+
+}
+.fasoza-header {
+    width: 30%;
+    margin: 40px 0 0 0;
+    text-align:center;
+    background: purple;
+    padding: 5px 10px;
+    border-bottom: 2px solid black;
+}
+.fasoza-main-line {
+    width: 70%;
+    border-bottom: 2px solid black;
+}
+.fasoza-head-main {
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 66%;
+    margin-left: 3%;
+    padding-top: 20px;
+    padding-bottom: 0px;
+  }
+  .fasoza-para-main {
+    font-size: 18px;
+    width: 70%;
+    color: gray;
+    margin-left: 3%;
+    padding-bottom: 20px;
+  }
+  .fasoza-text-main {
+    font-size: 16px;
+    font-family: monospace;
+    color: skyblue;
+    width: 92%;
+    margin-left: 3%;
+    padding-bottom: 50px;
+  }
 
 @media only screen and (min-width: 600px){
+    .fasoza-text-main {
+        width: 66%;
+        margin-left: 23%
+    }
+
  .Nav-bar {
      flex-direction: row;
      align-items: center;
