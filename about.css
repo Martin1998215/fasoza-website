@@ -201,7 +201,11 @@ font-size: 15px;
 .about-all h3 {
     color: blue;
 }
-
+.vid {
+    width: 100%;
+    margin: 0 auto;
+    height: 250px;
+}
 
 @media only screen and (min-width: 600px){
     .Nav-bar {
@@ -263,5 +267,9 @@ font-size: 20px;
     }
     .about-all p {
         font-size: 20px;
+    }
+    .vid {
+        width: 100%;
+        height: 300px;
     }
 }
