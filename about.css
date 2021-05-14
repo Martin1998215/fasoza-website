@@ -205,6 +205,7 @@ font-size: 15px;
     width: 100%;
     margin: 0 auto;
     height: 250px;
+    border: 1px solid black;
 }
 
 @media only screen and (min-width: 600px){
