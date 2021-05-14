@@ -183,6 +183,25 @@ textarea {
     justify-content: space-between;
 }
 
+.about-part-1 {
+    width: 96%;
+    margin: 30px auto;
+}
+.about-ul-part-1 {
+    width: 100%;
+}
+.about-ul-part-1 li {
+padding: 10px 0;
+font-size: 15px;
+}
+
+.about-all {
+    margin: 20px 0;
+}
+.about-all h3 {
+    color: blue;
+}
+
 
 @media only screen and (min-width: 600px){
     .Nav-bar {
@@ -229,5 +248,20 @@ textarea {
     }
     .cover-left-line {
         margin: 40px 0;
+    }
+
+    .about-part-1 {
+        width: 96%;
+        margin: 30px auto;
+    }
+    .about-ul-part-1 {
+        width: 100%;
+    }
+    .about-ul-part-1 li {
+padding: 10px 0;
+font-size: 20px;
+    }
+    .about-all p {
+        font-size: 20px;
     }
 }
